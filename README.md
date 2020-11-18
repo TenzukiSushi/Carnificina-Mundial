@@ -4,4 +4,5 @@ Ele está sendo refeito, para que fique melhor e mais divertido
 
 # Ideia basica do jogo
 Você deverá matar a maior quantidade de zumbis o possivel, e lutar para sobreviver
+
 Ele será online, mas isso ficará para depois, e terá integração com Steamworks e Discord
