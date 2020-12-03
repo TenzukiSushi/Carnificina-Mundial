@@ -2,12 +2,14 @@
 
 public class PlayerHands : MonoBehaviour
 {
+    [Header("Variaveis de objeto")]
     [SerializeField] private GameObject hands;
 
     private Rigidbody2D rb;
     private Vector2 mousePos;
     private SpriteRenderer sprite;
 
+    //Pega o componente das variaveis
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();

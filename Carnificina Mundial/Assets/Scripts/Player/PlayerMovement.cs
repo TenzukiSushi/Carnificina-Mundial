@@ -2,18 +2,19 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float walkSpeed;
+    [Header("Variaveis numericas")]
     [SerializeField] private float runSpeed;
+    [SerializeField] private float walkSpeed;
 
     private float currentSpeed;
 
     private Vector2 axis;
     private Animator anim;
-    private Rigidbody2D rb;
+    private Rigidbody2D rb; 
 
     private void FixedUpdate() => rb.velocity = axis * currentSpeed;
 
-    //Pega o componente dos tipos
+    //Pega o componente das variaveis
     private void Start()
     {
         anim = GetComponent<Animator>();
